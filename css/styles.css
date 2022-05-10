@@ -11063,19 +11063,20 @@ blockquote {
 @media (min-width: 992px) {
   #mainNav {
     border-bottom: 1px solid transparent;
-    background: transparent;
+    background: white;
+    opacity: 0.8;
   }
   #mainNav .navbar-brand {
     color: #000000;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffd700;;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     color: #000000;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: #fff
+    color: #ffd700;
   }
 }
 @media (min-width: 992px) {
@@ -11098,13 +11099,13 @@ blockquote {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #ffd700;;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #ffd700;;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -11221,7 +11222,7 @@ header.masthead .site-heading .h1 {
 }
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #ffd700;;
 }
 .post-preview > a > .post-title {
   font-size: 1.875rem;
