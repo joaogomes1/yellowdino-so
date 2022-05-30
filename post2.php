@@ -50,7 +50,7 @@
                             Artificial</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post2.html">SQL Injection</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Sobre</a></li>
                 </ul>
             </div>
         </div>
