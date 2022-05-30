@@ -103,27 +103,6 @@
         </div>
     </article>
 
-    <!-- Comments section -->
-    <div id="divComentarios">
-        <?php
-
-        require("db.php");
-        $query = "SELECT comment FROM COMMENT WHERE FK_id_art = 2 ORDER BY id DESC;";
-        $dataset = mysqli_query($conn, $sql);
-        if (!$dataset) {
-            echo("<h1>Ocorreu um erro ao carregar os comentários. Tente recarregar a página.</h1>");
-        } elseif (mysqli_num_rows($dataset) == 0) {
-            echo("<h1>Parece que ainda não há comentários! Seja o primeiro a comentar.</h1>");
-        } else {
-            while ($linha = mysqli_fetch_assoc($dataset)) {
-                echo("<h2>Anônimo</h2> <br>")
-                echo("<h3>" . $linha["comment"] . "</h3>")
-            }
-        }
-
-        ?>
-    </div>
-
     <!-- Footer-->
     <footer class="border-top">
         <div class="container px-4 px-lg-5">

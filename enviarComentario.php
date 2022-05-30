@@ -2,9 +2,9 @@
 
 if (!isset($_POST["post_id"]) || !isset($_POST["comentario"])) {
     if (isset($_POST["post_id"])) {
-        header("Location: post" . $_POST["post_id"] . ".php");
+        header("Location: post" . $_POST["post_id"] . ".html");
     } else {
-        header("Location: index.php")
+        header("Location: index.html")
     }
 }
 
@@ -21,6 +21,6 @@ $insert = mysqli_query($conn, $query);
 if (!$insert) {
     die("Ocorreu um erro ao enviar o comentário! Tente novamente.");
 }
-header("Location: post" . $post_id . ".php");
+header("Location: post" . $post_id . ".html");
 
 ?>
