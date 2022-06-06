@@ -22,12 +22,15 @@
     <script>
         const valida = () => {
             let comentario = document.getElementById("comentario").value;
-
+			<!-- alert(comentario); -->
+			
             comentario = comentario.trim();
-            if (comentario == "") {
-                alert("Para enviar um comentário é necessário escrever um comentário.");
-                return false;
-            }
+            //~ aparentemente o formulário está sendo validado sem passar pelo if abaixo
+            //~ alert(comentario);
+            //~ if (comentario == "") {
+                //~ alert('Para enviar um comentário é necessário escrever um comentário.');
+                //~ return false;
+            //~ }
             return true;
         }
     </script>
